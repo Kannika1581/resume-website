@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="50" viewBox="0 0 300 50">
+  <!-- Ribbon shape -->
+  <path d="M0,0 L300,0 L285,50 L15,50 Z" fill="url(#ribbon-gradient)">
+    <animate attributeName="fill-opacity" values="0.9;1;0.9" dur="2s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="ribbon-gradient" x1="0%" y1="0%" x2="100%" y1="0%">
+      <stop offset="0%" style="stop-color:#E7B2A5"/>
+      <stop offset="50%" style="stop-color:#FFD1DC"/>
+      <stop offset="100%" style="stop-color:#E7B2A5"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;200%;100%" dur="3s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <!-- Four-point star -->
+  <path d="M12,0 L14,9 L24,12 L14,15 L12,24 L10,15 L0,12 L10,9 Z" fill="#FFFFFF" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#FFFFFF;#FFD1DC;#FFFFFF" dur="2s" repeatCount="indefinite"/>
+  </path>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Circular border -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#FFD1DC" stroke-width="2"/>
+  
+  <!-- Flower pattern repeated around the circle -->
+  <g id="flower">
+    <path d="M0,-30 C5,-20 10,-25 0,-15 C-10,-25 -5,-20 0,-30" fill="#FFB7C5">
+      <animate attributeName="fill" values="#FFB7C5;#E7B2A5;#FFB7C5" dur="3s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Repeating the flower around the circle -->
+  <use href="#flower" transform="translate(100,100) rotate(0)"/>
+  <use href="#flower" transform="translate(100,100) rotate(30)"/>
+  <use href="#flower" transform="translate(100,100) rotate(60)"/>
+  <use href="#flower" transform="translate(100,100) rotate(90)"/>
+  <use href="#flower" transform="translate(100,100) rotate(120)"/>
+  <use href="#flower" transform="translate(100,100) rotate(150)"/>
+  <use href="#flower" transform="translate(100,100) rotate(180)"/>
+  <use href="#flower" transform="translate(100,100) rotate(210)"/>
+  <use href="#flower" transform="translate(100,100) rotate(240)"/>
+  <use href="#flower" transform="translate(100,100) rotate(270)"/>
+  <use href="#flower" transform="translate(100,100) rotate(300)"/>
+  <use href="#flower" transform="translate(100,100) rotate(330)"/>
+</svg>

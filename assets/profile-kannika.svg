@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Circular background -->
+  <circle cx="100" cy="100" r="100" fill="#FFE5E2"/>
+  
+  <!-- Stylized feminine silhouette for Kannika -->
+  <circle cx="100" cy="75" r="40" fill="#FFB7C5"/>
+  <path d="M60,160 Q100,210 140,160 L140,120 Q100,160 60,120 Z" fill="#FFB7C5"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="85" cy="70" r="5" fill="#FFF0F7"/>
+  <circle cx="115" cy="70" r="5" fill="#FFF0F7"/>
+  <path d="M90,95 Q100,105 110,95" stroke="#E7B2A5" stroke-width="3" fill="none"/>
+  
+  <!-- Crown element for princess theme -->
+  <path d="M70,45 L80,25 L100,35 L120,25 L130,45" stroke="#E7B2A5" stroke-width="3" fill="none"/>
+  <circle cx="80" cy="25" r="3" fill="#E7B2A5"/>
+  <circle cx="100" cy="35" r="3" fill="#E7B2A5"/>
+  <circle cx="120" cy="25" r="3" fill="#E7B2A5"/>
+  
+  <!-- Decorative hair elements -->
+  <path d="M60,75 Q50,100 65,120" stroke="#E7B2A5" stroke-width="2" fill="none"/>
+  <path d="M140,75 Q150,100 135,120" stroke="#E7B2A5" stroke-width="2" fill="none"/>
+</svg>

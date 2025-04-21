@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Heart shape -->
+  <path d="M100,30 C60,10 10,50 10,90 C10,150 100,180 100,180 C100,180 190,150 190,90 C190,50 140,10 100,30 Z" fill="#FFB7C5">
+    <animate attributeName="fill" values="#FFB7C5;#FFD1DC;#FFB7C5" dur="3s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Inner circle cutout -->
+  <circle cx="100" cy="100" r="65" fill="#FFFFFF"/>
+</svg>
